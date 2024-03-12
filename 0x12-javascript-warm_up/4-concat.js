@@ -1,6 +1,8 @@
 #!/usr/bin/node
 
-const arg1 = process.argv[2] || 'undefined';
-const arg2 = process.argv[3] || 'undefined';
+const myVar1 = process.argv[2];
+const myVar2 = process.argv[3];
 
-console.log(`${arg1} is ${arg2}`);
+const result = `${myVar1} is ${myVar2}`;
+
+console.log(result);
